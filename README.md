@@ -68,6 +68,7 @@ The client is losing **over $17 Million annually** due to unmanaged turnover.
 ---
 
 ## 🏗️ Architecture & ML Pipeline
+```
 flowchart TD
     A[Raw HR Dataset<br/>1,470 Records • 44 Attributes] --> B[Data Cleaning & Preparation<br/>Dropped Constants: EmployeeCount, StandardHours, Over18, EmployeeNumber]
     B --> C[Cleaned Dataset<br/>1,470 Employee Profiles • 40 Features]
@@ -81,7 +82,7 @@ flowchart TD
     J --> K[Threshold Optimization<br/>0.50 → 0.18<br/>Recall 61.7% → 91.5%]
     K --> L[Financial Impact Quantification<br/>181 Flagged Employees<br/>Net Savings $1,470,308 • ROI 270.8%]
     L --> M[Business Strategy & HR Consulting<br/>Compensation Reviews • Overtime Reduction<br/>Career Pathing • Role-Specific Retention]
-
+```
 
 ---
 
@@ -376,6 +377,7 @@ This 39:1 asymmetry mathematically justifies **shifting the threshold down** to 
 
 ## 📂 Repository Structure
 
+```
 Employee-retention-strategy/
 ├── .gitignore                        
 ├── dataset.csv                            # Multi-year HR dataset (1,470 records, 44 features)
@@ -383,7 +385,7 @@ Employee-retention-strategy/
 ├── employee_retention_strategy_proposal   # Executive presentation slide deck 
 ├── requirements.txt                       # Python dependencies & libraries
 └── README.md                              # Portfolio documentation & technical summary
-
+```
 
 ---
 
@@ -431,7 +433,7 @@ In the notebook, replace the `google.colab` mount cell above with a plain read f
 import pandas as pd
 df = pd.read_csv("dataset.csv")
 ```
-Then launch the notebook as usual:
+Then launch the notebook as usual
 
 ---
 ## 📚 References & Benchmarks
