@@ -1,0 +1,18 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep repository lightweight; instruct users to provide data)
+dataset/data.csv
+*.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
