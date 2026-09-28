@@ -452,6 +452,7 @@ Then launch the notebook as usual
 
 **Tanisha Botharrygadoo**  
 Project: Employee Retention Strategy POC
+
 Status: Academic / Research Proposal
 
 *If you found this project insightful, feel free to ⭐ star this repository!*
